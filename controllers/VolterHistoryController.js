@@ -16,7 +16,7 @@ import xlsx from 'node-xlsx'
 // Business logic
 // ==================================================
 
-const getPriceObject = () => {
+const parsedPriceLists = () => {
   const rawPriceList1 = xlsx.parse(`${process.env.PWD}/uploads/volter-history/2024-01-02.xls`)
   const rawPriceList2 = xlsx.parse(`${process.env.PWD}/uploads/volter-history/2024-01-19.xls`)
 
@@ -30,7 +30,7 @@ const getPriceObject = () => {
 
 export const get = async (req, res) => {
   try {
-    const result = getPriceObject()
+    const result = parsedPriceLists()
 
     res.json(result)
   } catch (error) {
