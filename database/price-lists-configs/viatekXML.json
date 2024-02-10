@@ -1,0 +1,79 @@
+{
+    "CATEGORIES_TO_PARSE": [10186, 10187, 10002, 10005],
+    "SUBCATEGORIES_TO_PARSE": [
+        10020,
+        10021,
+        10026,
+        10027,
+        10025,
+        10029,
+        10028,
+        10032,
+        10023,
+        10022,
+        10024,
+        10071,
+        10038,
+        10039,
+        10040,
+        10041,
+        10084,
+        10079,
+        10082,
+        10158,
+        10042,
+        10011,
+        10065,
+        10019,
+        10072,
+        10012,
+        10017
+    ],
+    "FORBIDDEN_WORDS": [
+        {
+          "word": "подделка",
+          "replacements": ["фальсификация"]
+        },
+        {
+          "word": "подделки",
+          "replacements": ["фальсификации"]
+        },
+        {
+          "word": "подделку",
+          "replacements": ["фальсицикацию"]
+        },
+        {
+          "word": "подделать",
+          "replacements": ["фальсифицировать"]
+        },
+        {
+          "word": "підробка",
+          "replacements": ["фальсифікація"]
+        },
+        {
+          "word": "підробки",
+          "replacements": ["фальсифікації"]
+        },
+        {
+          "word": "підробку",
+          "replacements": ["фальсифікацію"]
+        },
+        {
+          "word": "підробити",
+          "replacements": ["фальсифікувати"]
+        },
+        {
+          "word": "підробці",
+          "replacements": ["фальсифікації"]
+        }
+    ],
+    "CATEGORY_PROPERTIES_TO_VALIDATE": [
+      "$value"
+    ],
+    "PRODUCT_PROPERTIES_TO_VALIDATE": [
+      "name.$value",
+      "name_ua.$value",
+      "description.$cdata.$value",
+      "description_ua.$cdata.$value"
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "onDemandKey": "Під замовлення",
+    "supplyDateKey": "Дата прибуття",
+    "supplyDateSubstring": [16, 27],
+    "startRow": 3,
+    "startWorksheet": 1,
+    "worksheets": {
+        "ФЕМ": {
+            "code": 1,
+            "group": 31,
+            "priceDealer": 5,
+            "priceSuggest": 7,
+            "quantity": 32,
+            "title": 2
+        },
+        "Кріплення": {
+            "code": 1,
+            "group": 14,
+            "priceDealer": 4,
+            "priceSuggest": 6,
+            "quantity": 15,
+            "title": 2
+        },
+        "Кабель+Контролери": {
+            "code": 1,
+            "group": 30,
+            "priceDealer": 4,
+            "priceSuggest": 6,
+            "quantity": 31,
+            "title": 2
+        },
+        "Stromherz": {
+            "code": 1,
+            "group": 21,
+            "priceDealer": 4,
+            "priceSuggest": 6,
+            "quantity": 22,
+            "title": 2
+        },
+        "Інвертори": {
+            "code": 1,
+            "group": 24,
+            "priceDealer": 4,
+            "priceSuggest": 6,
+            "quantity": 25,
+            "title": 2
+        },
+        "АКБ+ДБЖ": {
+            "code": 1,
+            "group": 22,
+            "priceDealer": 4,
+            "priceSuggest": 6,
+            "quantity": 23,
+            "title": 2
+        },
+        "Зарядні пристрої": {
+            "code": 1,
+            "group": 20,
+            "priceDealer": 4,
+            "priceSuggest": 6,
+            "quantity": 21,
+            "title": 2
+        },
+        "Захист+лічильники": {
+            "code": 1,
+            "group": 15,
+            "priceDealer": 4,
+            "priceSuggest": 6,
+            "quantity": 16,
+            "title": 2
+        },
+        "Вітрогенератори+Освітлення": {
+            "code": 1,
+            "group": 31,
+            "priceDealer": 17,
+            "priceSuggest": 19,
+            "quantity": 20,
+            "title": 2
+        }
+    },
+    "worksheetsAllowedToParse": {
+        "ФЕМ": false,
+        "Кріплення": false,
+        "Кабель+Контролери": false,
+        "Stromherz": false,
+        "Інвертори": true,
+        "АКБ+ДБЖ": true,
+        "Зарядні пристрої": false,
+        "Захист+лічильники": false,
+        "Вітрогенератори+Освітлення": false
+    }
+}
